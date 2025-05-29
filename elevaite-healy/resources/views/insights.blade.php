@@ -1,6 +1,14 @@
 @extends('layouts.app')
 
 @section('content')
+    <div class="container-fluid py-4" style="padding-bottom: 100px;">
+        <!-- Header -->
+        <div class="header-section">
+            <h1 class="page-title">AI Insights</h1>
+            <p class="page-subtitle">Your personalized health intelligence</p>
+            <div class="progress-divider"></div>
+        </div>
+
         <!-- Insights Cards -->
         <div class="insights-container">
             <!-- Sleep Quality Declining -->
@@ -133,6 +141,7 @@
             </div>
         </div>
     </div>
+</div>
 @endsection
 
 @push('styles')
