@@ -14,6 +14,11 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+Route::view('/login', 'auth.login')->name('login');
+// Route::view('/login', 'login')->name('login');
+
+Route::view('/register', 'auth.register')->name('register');
+
 
 
 Route::view('/', 'health')->name('health');
