@@ -85,7 +85,7 @@ body {
     margin-left: 0.25rem;
 }
 
-.metric-label {
+#dashboard .metric-label {
     font-weight: 600;
     margin-bottom: 0.5rem;
 }
@@ -381,7 +381,7 @@ body {
     color: #f44336;
 }
 
-.metric-label {
+#insights .metric-label {
     font-size: 0.875rem;
     color: var(--secondary-text);
     font-weight: 500;

@@ -10,7 +10,7 @@
         </div>
 
         <!-- Insights Cards -->
-        <div class="insights-container">
+        <div id="insights" class="insights-container">
             <!-- Sleep Quality Declining -->
             <div class="insight-card sleep-insight fade-in" style="animation-delay: 0.1s;">
                 <div class="card-body p-4">

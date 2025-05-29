@@ -22,6 +22,8 @@
         </div>
     </div>
 
+    <div id="dashboard">
+
         <!-- Heart Rate Card (Large) -->
         <div class="row mb-3">
             <div class="col-12">
@@ -138,6 +140,7 @@
             </div>
         </div>
 
+
         <!-- Chart Section -->
         <div class="chart-container">
             <h5 class="fw-bold text-dark mb-1">Daily Trends</h5>
@@ -218,6 +221,8 @@
         </div>
 
     </div>
+    </div>
+
 
 
 
