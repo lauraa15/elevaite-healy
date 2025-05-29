@@ -7,10 +7,10 @@
         <div class="col-md-3">
             <div class="card mb-4 shadow-sm">
                 <div class="card-body text-center">
-                    <img src="{{ Auth::user()->profile_photo_url }}" class="rounded-circle mb-2" width="100" height="100" alt="Profile Photo">
-                    <h5 class="card-title">{{ Auth::user()->name }}</h5>
-                    <p class="card-text text-muted">{{ Auth::user()->email }}</p>
-                    <a href="{{ route('profile.edit') }}" class="btn btn-outline-primary btn-sm">Edit Profile</a>
+                    <img src="#" class="rounded-circle mb-2" width="100" height="100" alt="Profile Photo">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text text-muted">Chin@gmail.com</p>
+                    <a href="" class="btn btn-outline-primary btn-sm">Edit Profile</a>
                 </div>
             </div>
         </div>

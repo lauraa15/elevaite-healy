@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
 Route::view('/', 'health')->name('health');
 Route::view('/activity', 'activity')->name('activity');
 Route::view('/insights', 'insights')->name('insights');

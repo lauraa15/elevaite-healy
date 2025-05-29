@@ -9,6 +9,7 @@
             </div>
             <div class="col">
                 <a href="{{ route ('activity') }}" class="nav-item d-block">
+
                     <i class="fas fa-running d-block"></i>
                     <small>Activities</small>
                 </a>
