@@ -12,6 +12,7 @@
 <body>
     <div class="container-fluid py-4">
         @yield('content')
+        <div style="height: 40px;"></div>
     </div>
 
     @include('partials.bottom-nav')

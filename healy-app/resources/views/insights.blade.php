@@ -1,8 +1,16 @@
 @extends('layouts.app')
 
 @section('content')
+    <div class="container-fluid py-4" style="padding-bottom: 100px;">
+        <!-- Header -->
+        <div class="header-section">
+            <h1 class="page-title">AI Insights</h1>
+            <p class="page-subtitle">Your personalized health intelligence</p>
+            <div class="progress-divider"></div>
+        </div>
+
         <!-- Insights Cards -->
-        <div class="insights-container">
+        <div id="insights" class="insights-container">
             <!-- Sleep Quality Declining -->
             <div class="insight-card sleep-insight fade-in" style="animation-delay: 0.1s;">
                 <div class="card-body p-4">
@@ -133,6 +141,7 @@
             </div>
         </div>
     </div>
+</div>
 @endsection
 
 @push('styles')
