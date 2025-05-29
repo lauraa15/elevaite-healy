@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\InsightsController;
+use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,14 +15,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('health');
-});
-
-Route::get('/insights', function () {
-    return view('insights');
-});
-
-Route::get('/profile', function () {
-    return view('profile');
-});
+Route::view('/', 'health')->name('health');
+Route::view('/activity', 'activity')->name('activity');
+Route::view('/insights', 'insights')->name('insights');
+Route::view('/profile', 'profile')->name('profile');
