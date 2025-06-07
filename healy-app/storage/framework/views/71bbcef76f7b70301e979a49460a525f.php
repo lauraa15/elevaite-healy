@@ -1,0 +1,2 @@
+
+<?php echo $__env->make('layouts.app', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH D:\laragon\www\elevaite-healy\healy-app\resources\views/activity.blade.php ENDPATH**/ ?>
